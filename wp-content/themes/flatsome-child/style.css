@@ -1,0 +1,230 @@
+/*
+Theme Name: ALIAT BRANDING
+Description: ALIAT BRANDING
+Author: ALIAT BRANDING
+Template: flatsome
+Version: 1.0
+*
+1. SETTING
+2. HEADER
+3. FOOTER
+4. MAIN
+5. MOBILE
+*/
+
+/*1.SETTING*/
+/* Hide tooltipster */
+.tooltipster-default .tooltipster-content,
+.tooltipster-arrow span,
+.tooltipster-arrow-top span {display:none;}
+html.js{background:none}
+
+/*2.HEADER*/
+.flex-col.hide-for-medium.flex-right.flex-grow li{margin-left:30px}
+.header-nav .menu-item a{font-size: 13px;text-transform: none;color: #333;}
+.header-main{border-bottom:1px solid #eee}
+.nav>li>a:focus,.nav>li>a:hover{background:none}
+.header-vertical-menu__opener{padding:0}
+.header-vertical-menu__opener i.icon-menu{font-size:16px;top:2px}
+.header-search-form-wrapper .flex-col{padding:0!important}
+.header-search-form-wrapper .flex-col.search-form-categories select{border-radius:15px 0 0 15px;margin-right:2px;border-color:#efefef;background-color:#efefef}
+.header-search-form-wrapper .flex-col.flex-grow input{border-radius:0 15px 15px 0;border-color:#efefef;background-color:#efefef;min-width: 200px;}
+.header-nav li span.menu-title{color:#333;font-size:12px}
+.header-nav li i.icon-menu{font-size:16px!important}
+.header-vertical-menu i.icon-angle-down{display:none}
+span.header-cart-title{font-size:12px;color:#333}
+i.icon-shopping-basket:before{font-size:16px}
+i.icon-shopping-basket{top:-4px}
+i.icon-shopping-basket:after{top:-3px;right:-11px;font-size:9px;min-width:14px;height:14px;line-height:14px}
+.header-nav li.nav-icon.has-icon a{display:flex}
+.header-nav li.nav-icon.has-icon a span.menu-title.uppercase.hide-for-small{order:1;padding-right:5px}
+.header-nav li.nav-icon.has-icon a i.icon-menu{order:2;top:-1px}
+ul#menu-category a:hover{color:#0C5E3E}
+
+/*3.FOOTER*/
+.back-to-top{background: #0C5E3E!important;border: 1px solid #0C5E3E!important;color:#fff!important;border-radius:0}
+.absolute-footer{padding: 10px;background: #CFCFCF;max-width: 1920px;margin: 0 auto;}
+.copyright-footer{font-size:13px;color: #333;}
+.slider-wrapper{max-width:1140px;margin:0 auto}
+#footer h2{font-size:16px}
+#footer #row_ft h3{font-size:15px;margin-bottom:5px}
+#footer #row_ft p{font-size:14px;margin-bottom:3px}
+#footer #row_ft img, #footer .col3 #row_ft img{width:12px;margin-right:10px;margin-top:-3px}
+#footer #row_ft{margin-bottom:15px}
+#footer .col3 p{font-size:14px}
+#footer .col3 p:first-child{font-size:15px;margin-bottom: 15px;line-height:1.3}
+#footer .col3 h4{font-size:17px;line-height:1.3;margin-bottom: 15px;}
+#footer .col3 .icon-box{background:#CFCFCF;padding:10px 15px;border-radius:10px}
+#footer .col3 table td{border-width:0;font-weight:600;color:#000}
+#footer .col3 table td a{color:#000}
+#footer .col3 table td a:hover{color:#0C5E3E;text-decoration:underline}
+
+/*4.MAIN*/
+.section, header#header{padding-bottom: 0!important;max-width: 1920px;margin: 0 auto}
+bdi{color:red}
+ins bdi{color:red}
+del bdi,del bdi span.woocommerce-Price-currencySymbol{color:#333!important;}
+
+/*Home*/
+.archive .price-wrapper{padding-left: 10px;padding-right: 10px;padding-bottom: 5px;}
+.home-product .section-title{background:#0C5E3E}
+.home-product .section-title span.section-title-main,.title-custom .section-title span.section-title-main{color:#fff;font-size:16px;padding: 10px 10px 10px 15px;border-bottom:0}
+.home-product .section-title a{color:#fff;font-size:12px;font-weight:500;padding:0 10px}
+.home-product .section-title a i{top:1px;left:-4px;opacity:1}
+.home-product .large-12{padding-bottom: 15px;}
+.home-product a.button.is-link{text-transform:none;font-style:italic;color:#0C5E3E;font-size:.8em;margin: 0;padding: 0;}
+/* .home-product .section-title span.section-title-main:before{content:'';background:url(/wp-content/uploads/2022/11/ic1.png) no-repeat;background-size:20px;width:30px;height:30px;display:block;position:absolute;left:10px;top: 10px;}? */
+.home .container.section-title-container{margin-bottom: 15px;}
+.home .box-image{border:1px solid #f1f1f1}
+.home .box-text{padding-bottom:0}
+.home-news{padding-top:5px!important}
+.home-news .post-title:before{content:'';background:#ddd;width:10px;height:10px;display:block;border-radius:100%;position:absolute;left:0;top:4px}
+.home-news .post-title{position:relative;padding-left:15px;font-size: 16px;margin-bottom: 8px;max-height: 40px;overflow: hidden;}
+.home-news .col.post-item:hover .post-title:before{background:#0C5E3E}
+.home-news p.from_the_blog_excerpt{font-size:14px;line-height:1.3}
+.home-news .is-divider{display:none}
+.home-news button.button.is-link{margin-top:0;text-transform:none;font-style:italic;color:#0C5E3E}
+.title-custom{max-width:1920px!important;padding:0}
+.title-custom .section-title{background:linear-gradient(180deg,rgba(190,30,45,1) 0%,rgba(150,0,14,1) 100%)}
+.title-custom .section-title span.section-title-main{margin:0 auto;position: relative;}
+.title-custom .section-title b{display:none}
+.title-custom.large-12:first-child{padding-bottom:5px}
+.title-custom .section-title span.section-title-main:before,.title-custom .section-title span.section-title-main:after{content:'';background:url(/wp-content/uploads/2022/11/tit-bf.png) no-repeat;background-size:30px;width:30px;height:30px;display:block;position:absolute;left: -5px;top:4px}
+.title-custom .section-title span.section-title-main:after{content:'';background:url(/wp-content/uploads/2022/11/tit-af.png) no-repeat;background-size:30px;left:auto;right:-30px}
+/* .prod2 .section-title span.section-title-main:before{background:url(/wp-content/uploads/2022/11/ic2.png) no-repeat;background-size:20px} */
+.prod3 .section-title span.section-title-main:before{background:url(/wp-content/uploads/2022/11/ic3.png) no-repeat;background-size:20px}
+.box-text ul{margin-bottom:0;font-size:14px;max-height: 92px;overflow-y: scroll;padding-right: 5px;}
+.box-text ul li{margin-bottom:0;line-height: 1.3;}
+.box-text ul::-webkit-scrollbar,p.box-excerpt::-webkit-scrollbar{width: 3px;}
+.box-text ul::-webkit-scrollbar-track,p.box-excerpt::-webkit-scrollbar-track{background: #f1f1f1;}
+.box-text ul::-webkit-scrollbar-thumb,p.box-excerpt::-webkit-scrollbar-thumb{background-color:#0C5E3E;border-radius:5px;}
+.box-text ul::-webkit-scrollbar-thumb:hover,p.box-excerpt::-webkit-scrollbar-thumb:hover{background-color:#ff8000}
+.box-text ul,p.box-excerpt{scrollbar-width:thin;scrollbar-color:orange #ccc}
+p.box-excerpt{font-size:13.5px;line-height:1.5;max-height: 81px;overflow-y: auto;padding-right: 5px;}
+p.name.product-title.woocommerce-loop-product__title{font-size: 16px;font-weight:600;margin-bottom:5px}
+p.name.product-title.woocommerce-loop-product__title a{margin:0!important;color: #1b1b1b;}
+.title-wrapper p.category{text-transform:none;font-size: 12px;font-weight:600;color:#BE1E2D;padding-bottom: 2px;}
+
+
+
+.contact p{margin-bottom:5px}
+.contact h1{font-size: 16px;font-weight: 500;}
+.contact .row-custom{margin-bottom:15px}
+.contact .col-left .col-inner{background:#fff;padding:20px;height:100%}
+.contact input,.contact textarea{box-shadow:unset;font-size:15px;border-radius:2px}
+
+/*PRODUCT*/
+strong{font-weight:600}
+.woof.woof_sid.woof_sid_auto_shortcode,.woof_submit_search_form_container,a.woof_show_auto_form{display:none!important}
+.woof_checkbox_authors_container  .woof_list{margin:0}
+.woof_checkbox_authors_container .woof_list input{margin:0;padding:0}
+.woof_list li{margin:0!important;padding:0!important}
+.woof_list li input{margin:0;margin-right:8px}
+.woof_list bdi{color:#222}
+.archive .shop-page-title{background:#f8f8f8}
+.badge-inner.secondary.on-sale{width:100px;position:absolute;height:30px;top: -1px;left:-15px;background:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 256 100"><title>Asset 1</title><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><image width="256" height="100" xlink:href="data:image/png;base64,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"/></g></g></svg>') 50% no-repeat;line-height: 18px;}
+.badge-container{margin: -5px 0 0;}
+.product-small.col .col-inner{box-shadow: 0 1px 3px 0 rgb(60 64 67 / 10%), 0 1px 1px 0px rgb(60 64 67 / 15%);border-radius:10px;background: #fff;}
+.product-small.col .col-inner:hover{box-shadow:0 1px 4px 0 rgb(60 64 67 / 10%),0 2px 8px 1px rgb(60 64 67 / 15%)}
+.product-small.col .col-inner img{border-radius:10px}
+.badge-inner.secondary.on-sale span.onsale{font-size:12px;}
+.product-small .add-to-cart-button{position:absolute;display:none}
+.product-small:hover .add-to-cart-button{bottom:100%;background: #fff;width:100%;height:35px;display: flex;border-radius:0;padding:0;margin:0;justify-content: center;}
+.product-small .box-text{padding-left:0;padding-right:0;padding-bottom: 10px;}
+.product-small .add-to-cart-button a{margin:8px;min-height:28px;line-height:28px;border-radius:15px;font-weight:500;font-size:11px}
+.product-small .product-small.box .box-text .title-wrapper{padding-left:10px;padding-right:10px}
+.product-small .product-small.box ul,.product-small .product-small.box p.box-excerpt{padding-left:10px;padding-right:10px}
+.product-small a.added_to_cart.wc-forward{padding:0 15px;border:1px solid;height:30px}
+#product-sidebar .section{padding:0}
+#product-sidebar .section-title b{display:none}
+#product-sidebar .section-title{font-size: 13px;color: #0c5e3e;}
+#product-sidebar .container.section-title-container{margin-bottom:5px}
+#product-sidebar .r1{padding-top:40px}
+#product-sidebar input{font-size:14px;box-shadow:unset;border-radius:3px}
+#product-sidebar .wpcf7-submit{font-size:13px;display:block;margin:0 auto}
+#product-sidebar .r1 .col-inner{border: 1px solid #0c5e3e;border-radius:5px;padding:15px}
+#product-sidebar .wpcf7-spinner{display:none}
+#product-sidebar form.wpcf7-form{margin-bottom:0}
+#product-sidebar p{margin-bottom:0;font-size:15px}
+#product-sidebar h4{margin-bottom:0;font-size:16px}
+#product-sidebar .r2 li{margin-left:0;background:url(/wp-content/uploads/2022/11/services.png) no-repeat;background-position:-5px 13px;padding-left:50px;filter: hue-rotate(160deg);}
+#product-sidebar .r2 li span{font-size:14px;line-height:1.3;display:block}
+li.thanh-toan{background-position:-5px -97px!important}
+li.gia-ca{background-position:-5px -41px!important}
+li.hotline{background-position:-5px -164px!important}
+li.dia-chi{background-position:-5px -218px!important}
+.product-footer .tab-panels,.product-footer .tab-panels p{font-size:15px;margin-bottom:8px}
+.product-footer .description_tab a{padding: 5px 0;border-bottom:2px solid #0c5e3e;font-size:16px;color:#0c5e3e!important}
+.product-footer .description_tab a:before{background:none}
+.product-footer .woocommerce-tabs{border:none}
+.related h3.product-section-title{font-size:18px;padding:5px 0;margin-bottom:20px;color:#0c5e3e;border-bottom:2px solid}
+.related.related-products-wrapper.product-section{border:0}
+.related p.name.product-title.woocommerce-loop-product__title{font-size:14px}
+.related p.box-excerpt{font-size:13px}
+.product-small.box .price-wrapper .price{display:flex;align-items:flex-end}
+.product-small.box .price-wrapper del{order:2;font-size:85%}
+.product-small.box .price-wrapper ins{order:1;padding-right:10px}
+.cart_totals th.product-name{border:0;border-bottom:2px solid #ececec;padding:7px 0}
+.woocommerce-checkout .woocommerce.row.row-large.row-divided .col.large-7{max-width:100%;flex-basis:100%}
+.in4{margin-top:30px;}
+.in4 table td:first-child{font-weight:600;color:#333}
+.in4 table td:last-child{text-align:right}
+.woocommerce-customer-details{display:none}
+
+/*POST*/
+.post .entry-header-text{padding:0}
+.post-template-default h1.entry-title{font-size:24px}
+.post-template-default .entry-content.single-page{font-size:15px}
+.post-template-default .entry-content.single-page h2{font-size:20px;margin-bottom:8px}
+.post-template-default .entry-content.single-page h3{font-size:18px;margin-bottom:8px}
+.post-template-default .entry-content.single-page h4,.post-template-default .entry-content.single-page h5{font-size:16px;margin-bottom:8px}
+.post-template-default .entry-content.single-page h6{font-size:16px;margin-bottom:8px}
+.post-template-default .entry-content.single-page p,.post-template-default .entry-content.single-page ul{font-size:15px;margin-bottom:8px}
+/* bai viet lien quan */
+.bai-viet-lien-quan h2{margin-top:20px;font-weight:700;font-size:20px;}
+.bai-viet-lien-quan ul{margin-bottom:0;display:inline-block;width:100%}
+.bai-viet-lien-quan ul li{list-style:none;width:33.33%;float:left;padding-left:10px;padding-right:10px;display:grid}
+.bai-viet-lien-quan ul li .box-image{width:100%}
+.bai-viet-lien-quan img{border-radius:5px;min-height:180px}
+.bai-viet-lien-quan ul li h3{height:45px;overflow:hidden;font-size: 15px;font-weight:500;color:#333;margin-top:7px;line-height: 22px;text-align:center;}
+@media (max-width:549px){.bai-viet-lien-quan ul li{width:50%}}
+/* End bai viet lien quan */
+.archive main#main{background:#f8f8f8}
+.archive .large-9.col .col.post-item .col-inner{background:#fff;box-shadow: 0 0 10px #eee;}
+.archive h1.page-title{font-size:25px}
+.archive h1.page-title:after{content:'';background:url(/wp-content/uploads/2022/11/line.svg) no-repeat;background-position-x:center;height:9px;display:block}
+.post-sidebar .col.post-item{padding-bottom:0}
+
+
+
+
+
+
+/*5.MOBILE*/
+@media only screen and (max-width: 48em) {
+#footer .col3 table td{font-size:12px}
+#footer .col3 .icon-box-img{position:absolute;left:25px;top:-25px;width:35px!important;border:1px solid #e4e4e4;border-radius:100%;background:#e4e4e4}
+#footer .col3 .icon-box-text{padding:0}
+#footer .col3 .icon-box-img img{padding:2px}
+#footer .col3 .large-12{padding-bottom:0}
+.archive .box-text{padding:10px}
+.archive .box-text h5.post-title{font-size:14px}
+.archive .box-text .d-btn-xt{position:unset;float:none}
+.bai-viet-lien-quan img{min-height:110px}
+.post-sidebar .col.post-item .box-image{width:25%;flex:none}
+.post-sidebar .col.post-item .box-text{width:75%;flex:none;padding-top:0;padding-left:15px}
+.post-sidebar .col.post-item .box.box-normal.box-text-bottom{display:flex}
+.post-sidebar .col.post-item  h5.post-title{font-size:14px;margin-top:0}
+.post-sidebar .col.post-item p.from_the_blog_excerpt{line-height:1.3}
+.contact .col-right form.wpcf7-form.init{margin-bottom:0}
+.mobile-nav i.icon-menu{color:#fff;font-size:22px!important}
+.home-product .section-title{border-bottom:0;border-radius:5px}
+.post-type-archive .box-text.box-text-products{padding:10px 0}
+.mfp-content div#main-menu a{font-size:12px;padding:10px 20px}
+.mfp-content div#main-menu li{border-top:1px dashed #ddd}
+.mfp-content div#main-menu li:first-child{border-top:0}
+.product-main .large-6.col{padding-bottom:0}
+.product-main{padding:20px 0 0}
+
+
+}

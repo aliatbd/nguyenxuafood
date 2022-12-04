@@ -1,0 +1,9 @@
+2022-12-03T15:56:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_kses_post(), 0 passed in /home/nguye194/public_html/wp-content/themes/flatsome-child/woocommerce/checkout/thankyou.php on line 94 and exactly 1 expected in /home/nguye194/public_html/wp-includes/kses.php:2106
+Stack trace:
+#0 /home/nguye194/public_html/wp-content/themes/flatsome-child/woocommerce/checkout/thankyou.php(94): wp_kses_post()
+#1 /home/nguye194/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include('/home/nguye194/...')
+#2 /home/nguye194/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#3 /home/nguye194/public_html/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(1514)
+#4 /home/nguye194/public_html/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#5 /home/nguye194/public_html/wp-con in /home/nguye194/public_html/wp-includes/kses.php on line 2106
+

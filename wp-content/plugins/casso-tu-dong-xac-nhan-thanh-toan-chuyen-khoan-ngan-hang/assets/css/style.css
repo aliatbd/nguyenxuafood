@@ -1,0 +1,23 @@
+li.wc_payment_method>label>img {
+    max-height: 20px;
+    max-width: 120px;
+}
+
+.power_by {
+    opacity: 0.68;
+}
+.list-bank {
+    max-width: 90px !important;
+}
+
+.list-bank-box{
+    background: #fff !important;
+    margin-bottom: 4px;
+    margin-right: 4px;
+    border: 1px solid #ccc;
+}
+
+.list-bank img {
+    object-fit: contain;
+    margin: 0px !important;
+}

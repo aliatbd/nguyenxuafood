@@ -1,0 +1,1560 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 05:28:51
+* VERSION: 3.8.7.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Darwin
+PHP VERSION_________: 7.4.33                                |7.4.21
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Unix) OpenSSL/1.0.2u PHP/7.4.21 mod_wsgi/3.5 Python/2.7.13 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+DOC ROOT____________: "/Applications/MAMP/htdocs/nguyenxua"
+LOG FILE 644________: false
+REQUEST URL_________: "http://localhost/nguyenxua/dup-installer/main.installer.php"
+********************************************************************************
+INSTALLER INFO
+PATH_NEW____________: "/Applications/MAMP/htdocs/nguyenxua"
+URL_NEW_____________: "http://localhost/nguyenxua"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "/Applications/MAMP/htdocs/nguyenxua/20221203_nguyenxuafood_e5f329d57d5d018b1251_20221203171740_archive.zip"
+ARCHIVE SIZE________: 112.73MB
+CREATED_____________: 2022-12-03 17:17:40
+WP VERSION__________: 6.1.1
+DUP VERSION_________: 3.8.7.1
+DB VERSION__________: 8.0.31
+DB FILE SIZE________: 39.52MB
+DB TABLES___________: 94
+DB ROWS_____________: 4254
+ORIGINAL URL________: https://nguyenxuafood.com.vn
+PATH HOME___________: /home/nguye194/public_html
+PATH ABS____________: /home/nguye194/public_html
+PATH WPCONFIG_______: /home/nguye194/public_html
+PATH WPCONTENT______: /home/nguye194/public_html/wp-content
+PATH UPLOADS________: /home/nguye194/public_html/wp-content/uploads
+PATH PLUGINS________: /home/nguye194/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/nguye194/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/nguye194/public_html/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ] Advanced Custom Fields PRO
+PLUGIN [SLUG:casso-tu-dong-xac-nhan-thanh-toan-chuyen-khoan-ngan-hang/wc-gateway-casso.php][ON:false] Casso - Tự động xác nhận thanh toán chuyển khoản ngân hàng
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ] Contact Form 7
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ] Duplicator Pro
+PLUGIN [SLUG:ithemes-security-pro/ithemes-security-pro.php     ][ON:true ] iThemes Security Pro
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ] WooCommerce
+PLUGIN [SLUG:woocommerce-products-filter/index.php             ][ON:true ] WOOF - WooCommerce Products Filter
+PLUGIN [SLUG:wp-extra/vnex-extra.php                           ][ON:true ] WP EXtra
+PLUGIN [SLUG:wordpress-seo-premium/wp-seo-premium.php          ][ON:true ] Yoast SEO Premium
+--------------------------------------
+--------------------------------------
+
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:28:55
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+HOME URL OLD________: "https://nguyenxuafood.com.vn"
+HOME URL NEW________: "http://localhost/nguyenxua"
+SITE URL OLD________: "https://nguyenxuafood.com.vn"
+SITE URL NEW________: "http://localhost/nguyenxua"
+CONTENT URL OLD_____: "https://nguyenxuafood.com.vn/wp-content"
+CONTENT URL NEW_____: "http://localhost/nguyenxua/wp-content"
+UPLOAD URL OLD______: "https://nguyenxuafood.com.vn/wp-content/uploads"
+UPLOAD URL NEW______: "http://localhost/nguyenxua/wp-content/uploads"
+PLUGINS URL OLD_____: "https://nguyenxuafood.com.vn/wp-content/plugins"
+PLUGINS URL NEW_____: "http://localhost/nguyenxua/wp-content/plugins"
+MUPLUGINS URL OLD___: "https://nguyenxuafood.com.vn/wp-content/mu-plugins"
+MUPLUGINS URL NEW___: "http://localhost/nguyenxua/wp-content/mu-plugins"
+HOME PATH OLD_______: "/home/nguye194/public_html"
+HOME PATH NEW_______: "/Applications/MAMP/htdocs/nguyenxua"
+SITE PATH OLD_______: "/home/nguye194/public_html"
+SITE PATH NEW_______: "/Applications/MAMP/htdocs/nguyenxua"
+CONTENT PATH OLD____: "/home/nguye194/public_html/wp-content"
+CONTENT PATH NEW____: "/Applications/MAMP/htdocs/nguyenxua/wp-content"
+UPLOAD PATH OLD_____: "/home/nguye194/public_html/wp-content/uploads"
+UPLOAD PATH NEW_____: "/Applications/MAMP/htdocs/nguyenxua/wp-content/uploads"
+PLUGINS PATH OLD____: "/home/nguye194/public_html/wp-content/plugins"
+PLUGINS PATH NEW____: "/Applications/MAMP/htdocs/nguyenxua/wp-content/plugins"
+MUPLUGINS PATH OLD__: "/home/nguye194/public_html/wp-content/mu-plugins"
+MUPLUGINS PATH NEW__: "/Applications/MAMP/htdocs/nguyenxua/wp-content/mu-plugins"
+ARCHIVE ENGINE______: "ziparchivechunking"
+CLIENT KICKOFF______: false
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "/Applications/MAMP/htdocs/nguyenxua"
+--------------------------------------
+
+
+
+START ZIP FILE EXTRACTION CHUNKING >>> 
+ARCHIVE OFFSET 0
+Archive just got done processing last file in list of 16171
+Expected total archive extract time: 3.9325298775092
+Total extraction elapsed time until now: 3.9325298775092
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 05:29:04 - RUNTIME: 9.9603 sec.
+
+-------------------------
+AJAX ACTION dbtest
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+
+-------------------------
+AJAX ACTION dbtest
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+
+-------------------------
+AJAX ACTION dbtest
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root@localhost'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'root@localhost'@'localhost' (using password: NO)[ERRNO:1045]
+
+-------------------------
+AJAX ACTION dbtest
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root@localhost'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'root@localhost'@'localhost' (using password: NO)[ERRNO:1045]
+
+-------------------------
+AJAX ACTION dbtest
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/classes/class.db.php|LINE:43]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION dbtest
+
+-------------------------
+AJAX ACTION dbtest
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 05:36:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+CHARSET FB__________: true
+CHARSET FB VAL______: "big5"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: true
+COLLATE FB VAL______: "utf8mb4_general_ci"
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.34 -- Build Server: 8.0.31
+FILE SIZE:	dup-database__e5f329d-03171740.sql (35.83MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+COLLATE FB:	On
+DB CHUNKING:	enabled
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+
+NOTICE: This servers version [5.7.34] is less than the build version [8.0.31].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+DB QUERY [ERROR][/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:733] MSG: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFA' at line 6
+	SQL: CREATE TABLE `wp_mailpoet_newsletter_option` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `newsletter_id` int unsigned NOT NULL,
+  `option_field_id` int unsigned NOT NULL,
+  `value` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `newsletter_id_option_field_id` (`newsletter_id`,`option_field_id`)
+) ENGINE=MyISAM DEFA
+#0  DUPX_DB::mysqli_query(mysqli Object ([affected_rows] => ,[client_info] => ,[client_version] => ,[connect_errno] => ,[connect_error] => ,[errno] => ,[error] => ,[error_list] => ,[field_count] => ,[host_info] => ,[info] => ,[insert_id] => ,[server_info] => ,[server_version] => ,[sqlstate] => ,[protocol_version] => ,[thread_id] => ,[warning_count] => ), CREATE TABLE `wp_mailpoet_newsletter_option` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `newsletter_id` int unsigned NOT NULL,
+  `option_field_id` int unsigned NOT NULL,
+  `value` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `newsletter_id_option_field_id` (`newsletter_id`,`option_field_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:733]
+#1  DUPX_DBInstall->writeQueryInDB(CREATE TABLE `wp_mailpoet_newsletter_option` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `newsletter_id` int unsigned NOT NULL,
+  `option_field_id` int unsigned NOT NULL,
+  `value` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `newsletter_id_option_field_id` (`newsletter_id`,`option_field_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:343]
+#2  DUPX_DBInstall->writeInChunks() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php:165]
+#3  require_once(/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.base.php:151]
+#4  DUPX_CTRL::mainController() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/main.installer.php:75]
+
+DB QUERY [ERROR][/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:733] MSG: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFA' at line 7
+	SQL: CREATE TABLE `wp_mailpoet_scheduled_task_subscribers` (
+  `task_id` int unsigned NOT NULL,
+  `subscriber_id` int unsigned NOT NULL,
+  `processed` int NOT NULL,
+  `failed` smallint NOT NULL DEFAULT '0',
+  `error` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`task_id`,`subscriber_id`),
+  KEY `subscriber_id` (`subscriber_id`)
+) ENGINE=MyISAM DE
+#0  DUPX_DB::mysqli_query(mysqli Object ([affected_rows] => ,[client_info] => ,[client_version] => ,[connect_errno] => ,[connect_error] => ,[errno] => ,[error] => ,[error_list] => ,[field_count] => ,[host_info] => ,[info] => ,[insert_id] => ,[server_info] => ,[server_version] => ,[sqlstate] => ,[protocol_version] => ,[thread_id] => ,[warning_count] => ), CREATE TABLE `wp_mailpoet_scheduled_task_subscribers` (
+  `task_id` int unsigned NOT NULL,
+  `subscriber_id` int unsigned NOT NULL,
+  `processed` int NOT NULL,
+  `failed` smallint NOT NULL DEFAULT '0',
+  `error` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`task_id`,`subscriber_id`),
+  KEY `subscriber_id` (`subscriber_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:733]
+#1  DUPX_DBInstall->writeQueryInDB(CREATE TABLE `wp_mailpoet_scheduled_task_subscribers` (
+  `task_id` int unsigned NOT NULL,
+  `subscriber_id` int unsigned NOT NULL,
+  `processed` int NOT NULL,
+  `failed` smallint NOT NULL DEFAULT '0',
+  `error` text CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`task_id`,`subscriber_id`),
+  KEY `subscriber_id` (`subscriber_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:343]
+#2  DUPX_DBInstall->writeInChunks() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php:165]
+#3  require_once(/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.base.php:151]
+#4  DUPX_CTRL::mainController() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/main.installer.php:75]
+
+DB QUERY [ERROR][/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:733] MSG: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`newsletter_rendered_subject` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4' at line 6
+	SQL: CREATE TABLE `wp_mailpoet_sending_queues` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `task_id` int unsigned NOT NULL,
+  `newsletter_id` int unsigned DEFAULT NULL,
+  `newsletter_rendered_body` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `newsletter_rendered_subject` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `subscribers` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `count_total` int unsigned NOT NULL DEFAULT '0',
+  `coun
+#0  DUPX_DB::mysqli_query(mysqli Object ([affected_rows] => ,[client_info] => ,[client_version] => ,[connect_errno] => ,[connect_error] => ,[errno] => ,[error] => ,[error_list] => ,[field_count] => ,[host_info] => ,[info] => ,[insert_id] => ,[server_info] => ,[server_version] => ,[sqlstate] => ,[protocol_version] => ,[thread_id] => ,[warning_count] => ), CREATE TABLE `wp_mailpoet_sending_queues` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `task_id` int unsigned NOT NULL,
+  `newsletter_id` int unsigned DEFAULT NULL,
+  `newsletter_rendered_body` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `newsletter_rendered_subject` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `subscribers` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `count_total` int unsigned NOT NULL DEFAULT '0',
+  `count_processed` int unsigned NOT NULL DEFAULT '0',
+  `count_to_process` int unsigned NOT NULL DEFAULT '0',
+  `meta` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `task_id` (`task_id`),
+  KEY `newsletter_id` (`newsletter_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:733]
+#1  DUPX_DBInstall->writeQueryInDB(CREATE TABLE `wp_mailpoet_sending_queues` (
+  `id` int unsigned NOT NULL AUTO_INCREMENT,
+  `task_id` int unsigned NOT NULL,
+  `newsletter_id` int unsigned DEFAULT NULL,
+  `newsletter_rendered_body` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `newsletter_rendered_subject` varchar(250) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci DEFAULT NULL,
+  `subscribers` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `count_total` int unsigned NOT NULL DEFAULT '0',
+  `count_processed` int unsigned NOT NULL DEFAULT '0',
+  `count_to_process` int unsigned NOT NULL DEFAULT '0',
+  `meta` longtext CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `deleted_at` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `task_id` (`task_id`),
+  KEY `newsletter_id` (`newsletter_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:343]
+#2  DUPX_DBInstall->writeInChunks() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php:165]
+#3  require_once(/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.base.php:151]
+#4  DUPX_CTRL::mainController() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/main.installer.php:75]
+
+[PHP ERR][NOTICE] MSG:Undefined variable: counter [CODE:8|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:717]
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:717]
+**ERROR** Query size limit [length=4194304] [sql=...]
+[PHP ERR][NOTICE] MSG:Undefined variable: counter [CODE:8|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:717]
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:717]
+**ERROR** Query size limit [length=4194304] [sql=...]
+[PHP ERR][NOTICE] MSG:Undefined variable: counter [CODE:8|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:717]
+[PHP ERR][NOTICE] MSG:Trying to access array offset on value of type null [CODE:8|FILE:/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:717]
+**ERROR** Query size limit [length=4194304] [sql=...]
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+DATABASE: table "wp_itsec_logs" row count mismatch; expected "811" in database"772"
+DB QUERY [ERROR][/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:540] MSG: Table 'nguyenxuafood.wp_mailpoet_newsletter_option' doesn't exist
+	SQL: SELECT count(*) as cnt FROM `wp_mailpoet_newsletter_option`
+#0  DUPX_DB::mysqli_query(mysqli Object ([affected_rows] => ,[client_info] => ,[client_version] => ,[connect_errno] => ,[connect_error] => ,[errno] => ,[error] => ,[error_list] => ,[field_count] => ,[host_info] => ,[info] => ,[insert_id] => ,[server_info] => ,[server_version] => ,[sqlstate] => ,[protocol_version] => ,[thread_id] => ,[warning_count] => ), SELECT count(*) as cnt FROM `wp_mailpoet_newsletter_option`) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:540]
+#1  DUPX_DBInstall->getRowCountMisMatchTables() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php:169]
+#2  require_once(/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.base.php:151]
+#3  DUPX_CTRL::mainController() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/main.installer.php:75]
+
+DB QUERY [ERROR][/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:540] MSG: Table 'nguyenxuafood.wp_mailpoet_scheduled_task_subscribers' doesn't exist
+	SQL: SELECT count(*) as cnt FROM `wp_mailpoet_scheduled_task_subscribers`
+#0  DUPX_DB::mysqli_query(mysqli Object ([affected_rows] => ,[client_info] => ,[client_version] => ,[connect_errno] => ,[connect_error] => ,[errno] => ,[error] => ,[error_list] => ,[field_count] => ,[host_info] => ,[info] => ,[insert_id] => ,[server_info] => ,[server_version] => ,[sqlstate] => ,[protocol_version] => ,[thread_id] => ,[warning_count] => ), SELECT count(*) as cnt FROM `wp_mailpoet_scheduled_task_subscribers`) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:540]
+#1  DUPX_DBInstall->getRowCountMisMatchTables() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php:169]
+#2  require_once(/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.base.php:151]
+#3  DUPX_CTRL::mainController() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/main.installer.php:75]
+
+DB QUERY [ERROR][/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:540] MSG: Table 'nguyenxuafood.wp_mailpoet_sending_queues' doesn't exist
+	SQL: SELECT count(*) as cnt FROM `wp_mailpoet_sending_queues`
+#0  DUPX_DB::mysqli_query(mysqli Object ([affected_rows] => ,[client_info] => ,[client_version] => ,[connect_errno] => ,[connect_error] => ,[errno] => ,[error] => ,[error_list] => ,[field_count] => ,[host_info] => ,[info] => ,[insert_id] => ,[server_info] => ,[server_version] => ,[sqlstate] => ,[protocol_version] => ,[thread_id] => ,[warning_count] => ), SELECT count(*) as cnt FROM `wp_mailpoet_sending_queues`) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.dbinstall.php:540]
+#1  DUPX_DBInstall->getRowCountMisMatchTables() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php:169]
+#2  require_once(/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.s2.base.php) called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/ctrls/ctrl.base.php:151]
+#3  DUPX_CTRL::mainController() called at [/Applications/MAMP/htdocs/nguyenxua/dup-installer/main.installer.php:75]
+
+Database Table row count verification was failed for table(s): wp_itsec_logs.
+Starting Cleanup Routine...
+Cleanup Routine Complete
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	0
+
+TABLES ROWS
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    99]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     4]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:   295]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:    15]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_itsec_dashboard_events"_______________________[ROWS:    39]
+TABLE "wp_itsec_distributed_storage"____________________[ROWS:     7]
+TABLE "wp_itsec_fingerprints"___________________________[ROWS:     7]
+TABLE "wp_itsec_geolocation_cache"______________________[ROWS:     4]
+TABLE "wp_itsec_lockouts"_______________________________[ROWS:     0]
+TABLE "wp_itsec_logs"___________________________________[ROWS:   772]
+TABLE "wp_itsec_mutexes"________________________________[ROWS:     0]
+TABLE "wp_itsec_opaque_tokens"__________________________[ROWS:     0]
+TABLE "wp_itsec_temp"___________________________________[ROWS:    13]
+TABLE "wp_itsec_user_groups"____________________________[ROWS:     5]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_mailpoet_custom_fields"_______________________[ROWS:     0]
+TABLE "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0]
+TABLE "wp_mailpoet_feature_flags"_______________________[ROWS:     0]
+TABLE "wp_mailpoet_forms"_______________________________[ROWS:     0]
+TABLE "wp_mailpoet_log"_________________________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_links"____________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_option_fields"____________[ROWS:    24]
+TABLE "wp_mailpoet_newsletter_posts"____________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_segment"__________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_templates"________________[ROWS:    76]
+TABLE "wp_mailpoet_newsletters"_________________________[ROWS:     0]
+TABLE "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    14]
+TABLE "wp_mailpoet_segments"____________________________[ROWS:     3]
+TABLE "wp_mailpoet_settings"____________________________[ROWS:    15]
+TABLE "wp_mailpoet_statistics_bounces"__________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_clicks"___________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_forms"____________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_newsletters"______________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_opens"____________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0]
+TABLE "wp_mailpoet_stats_notifications"_________________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_ips"______________________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_segment"__________________[ROWS:     2]
+TABLE "wp_mailpoet_subscriber_tag"______________________[ROWS:     0]
+TABLE "wp_mailpoet_subscribers"_________________________[ROWS:     2]
+TABLE "wp_mailpoet_tags"________________________________[ROWS:     0]
+TABLE "wp_mailpoet_user_agents"_________________________[ROWS:     0]
+TABLE "wp_mailpoet_user_flags"__________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   445]
+TABLE "wp_postmeta"_____________________________________[ROWS:  1658]
+TABLE "wp_posts"________________________________________[ROWS:   234]
+TABLE "wp_term_relationships"___________________________[ROWS:    58]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    28]
+TABLE "wp_termmeta"_____________________________________[ROWS:    44]
+TABLE "wp_terms"________________________________________[ROWS:    28]
+TABLE "wp_usermeta"_____________________________________[ROWS:   104]
+TABLE "wp_users"________________________________________[ROWS:     2]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:     3]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:     3]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:     0]
+TABLE "wp_wc_product_download_directories"______________[ROWS:     2]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:    16]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:   198]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:    22]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     7]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_woof_query_cache"_____________________________[ROWS:     0]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:    42]
+TABLE "wp_yoast_seo_meta"_______________________________[ROWS:   323]
+
+DATABASE CACHE/TRANSITIENT [ROWS:   120]
+
+INSERT DATA RUNTIME: 0.0499 sec.
+STEP-2 COMPLETE @ 05:36:19 - RUNTIME: 0.0584 sec.
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wp_itsec_logs" row count mismatch; expected "811" in database"772"
+
+
+-----------------------
+[NOTICE] Database Table row count verification was failed for table(s): wp_itsec_logs.
+
+====================================
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:36:37
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Nguyên Xưa Food"
+url_old_______________: "https://nguyenxuafood.com.vn"
+url_new_______________: "http://localhost/nguyenxua"
+siteurl_______________: "http://localhost/nguyenxua"
+path_new______________: "/Applications/MAMP/htdocs/nguyenxua"
+path_old______________: "/home/nguye194/public_html"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+action_mu_mode________: -1
+DISALLOW_FILE_EDIT____: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+AUTOSAVE_INTERVAL_____: Array
+(
+    [value] => 60
+    [inWpConfig] => 
+)
+
+WP_POST_REVISIONS_____: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+FORCE_SSL_ADMIN_______: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+WP_AUTO_UPDATE_CORE___: Array
+(
+    [value] => false
+    [inWpConfig] => 
+)
+
+WP_CACHE______________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WPCACHEHOME___________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_DEBUG______________: Array
+(
+    [value] => 
+    [inWpConfig] => 1
+)
+
+WP_DEBUG_LOG__________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_DEBUG_DISPLAY______: Array
+(
+    [value] => 1
+    [inWpConfig] => 
+)
+
+SCRIPT_DEBUG__________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+SAVEQUERIES___________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+COOKIE_DOMAIN_________: Array
+(
+    [value] => 
+    [inWpConfig] => 
+)
+
+WP_MEMORY_LIMIT_______: Array
+(
+    [value] => 40M
+    [inWpConfig] => 
+)
+
+WP_MAX_MEMORY_LIMIT___: Array
+(
+    [value] => 512M
+    [inWpConfig] => 
+)
+
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 50
+timeOut_______________: 15000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    99][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   295][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_dashboard_events"_______________________[ROWS:    39][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_dashboard_events][0]
+
+EVALUATE TABLE: "wp_itsec_distributed_storage"____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_distributed_storage][0]
+
+EVALUATE TABLE: "wp_itsec_fingerprints"___________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_fingerprints][0]
+
+EVALUATE TABLE: "wp_itsec_geolocation_cache"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_geolocation_cache][0]
+
+EVALUATE TABLE: "wp_itsec_lockouts"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_logs"___________________________________[ROWS:   772][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_logs][0]
+
+EVALUATE TABLE: "wp_itsec_mutexes"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_opaque_tokens"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_itsec_temp"___________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_temp][0]
+
+EVALUATE TABLE: "wp_itsec_user_groups"____________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_itsec_user_groups][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_custom_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_feature_flags"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_forms"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_links"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option_fields"____________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_newsletter_option_fields][0]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_segment"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_templates"________________[ROWS:    76][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_newsletter_templates][0]
+
+EVALUATE TABLE: "wp_mailpoet_newsletters"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_scheduled_tasks][0]
+
+EVALUATE TABLE: "wp_mailpoet_segments"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_segments][0]
+
+EVALUATE TABLE: "wp_mailpoet_settings"____________________________[ROWS:    15][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_settings][0]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_bounces"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_clicks"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_forms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_newsletters"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_opens"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_stats_notifications"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_ips"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_segment"__________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_subscriber_segment][0]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_tag"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscribers"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_subscribers][0]
+
+EVALUATE TABLE: "wp_mailpoet_tags"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_agents"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_flags"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   445][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1658][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   234][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    58][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    28][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   104][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:   198][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_order_itemmeta][0]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:    22][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_order_items][0]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woof_query_cache"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_seo_links][0]
+
+EVALUATE TABLE: "wp_yoast_seo_meta"_______________________________[ROWS:   323][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/nguye194/public_html/" =====================> "/Applications/MAMP/htdocs/nguyenxua/"
+	SEARCH  2:"\/home\/nguye194\/public_html\/" =================> "\/Applications\/MAMP\/htdocs\/nguyenxua\/"
+	SEARCH  3:"%2Fhome%2Fnguye194%2Fpublic_html%2F" =============> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua%2F"
+	SEARCH  4:"\home\nguye194\public_html" ======================> "/Applications/MAMP/htdocs/nguyenxua"
+	SEARCH  5:"\\home\\nguye194\\public_html" ===================> "\/Applications\/MAMP\/htdocs\/nguyenxua"
+	SEARCH  6:"%5Chome%5Cnguye194%5Cpublic_html" ================> "%2FApplications%2FMAMP%2Fhtdocs%2Fnguyenxua"
+	SEARCH  7:"//nguyenxuafood.com.vn" ==========================> "//localhost/nguyenxua"
+	SEARCH  8:"\/\/nguyenxuafood.com.vn" ========================> "\/\/localhost\/nguyenxua"
+	SEARCH  9:"%2F%2Fnguyenxuafood.com.vn" ======================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 10:"//www.nguyenxuafood.com.vn" ======================> "//localhost/nguyenxua"
+	SEARCH 11:"\/\/www.nguyenxuafood.com.vn" ====================> "\/\/localhost\/nguyenxua"
+	SEARCH 12:"%2F%2Fwww.nguyenxuafood.com.vn" ==================> "%2F%2Flocalhost%2Fnguyenxua"
+	SEARCH 13:"https://localhost/nguyenxua" =====================> "http://localhost/nguyenxua"
+	SEARCH 14:"https:\/\/localhost\/nguyenxua" ==================> "http:\/\/localhost\/nguyenxua"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fnguyenxua" =============> "http%3A%2F%2Flocalhost%2Fnguyenxua"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_seo_meta][0]
+--------------------------------------
+SCANNED:	Tables:91 	|	 Rows:4620 	|	 Cells:32833 
+UPDATED:	Tables:7 	|	 Rows:338 	|	 Cells:350 
+ERRORS:		0 
+RUNTIME:	0.865700 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""nguyenxuafood""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+CHUNK ACTION: CURRENT [htaccess_update][][]
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 CHUNK STOP @ 05:36:38 - RUNTIME: 1.0237 sec. 
+
+
+
+STEP-3 COMPLETE @ 05:36:38 - RUNTIME: 0.0004 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Table wp_mailpoet_newsletter_option don't exists in database
+	SECTIONS: search_replace
+	LONG MSG: The table could not be found in the database.
+If the "Manual SQL Execution (Advanced)" option was chosen in step 2, make sure you insert the database manually before continuing to step 3.
+                   
+Also, verify the database that was inserted contains the urls and paths of the original site before step 3 for proper migration.
+
+-----------------------
+[WARNING] Table wp_mailpoet_scheduled_task_subscribers don't exists in database
+	SECTIONS: search_replace
+	LONG MSG: The table could not be found in the database.
+If the "Manual SQL Execution (Advanced)" option was chosen in step 2, make sure you insert the database manually before continuing to step 3.
+                   
+Also, verify the database that was inserted contains the urls and paths of the original site before step 3 for proper migration.
+
+-----------------------
+[WARNING] Table wp_mailpoet_sending_queues don't exists in database
+	SECTIONS: search_replace
+	LONG MSG: The table could not be found in the database.
+If the "Manual SQL Execution (Advanced)" option was chosen in step 2, make sure you insert the database manually before continuing to step 3.
+                   
+Also, verify the database that was inserted contains the urls and paths of the original site before step 3 for proper migration.
+
+-----------------------
+[NOTICE] Database Table row count validation was failed
+	SECTIONS: database
+	LONG MSG: DATABASE: table "wp_itsec_logs" row count mismatch; expected "811" in database"772"
+
+
+====================================
